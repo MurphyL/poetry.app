@@ -2,7 +2,8 @@ const { src, dest } = require('gulp');
 const rename = require('gulp-rename');
 const json2js = require('gulp-json-transform');
 
-const defaultTask = async () => {
+const wmpSource = async () => {
+    console.log('开始编译微信小程序资源文件……');
     const items = [{
         source: './chinese-poetry/json/authors.tang.json',
         target: './wechat.mp/subpackages/tang-shi/build/'
@@ -27,4 +28,4 @@ const defaultTask = async () => {
 
 };
 
-exports.default = defaultTask;
+exports.default = wmpSource;

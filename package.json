@@ -4,7 +4,7 @@
   "description": "诗歌应用",
   "main": "index.js",
   "scripts": {
-    "build-wmp": "gulp"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
