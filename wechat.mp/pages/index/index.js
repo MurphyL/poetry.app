@@ -1,4 +1,6 @@
 // index.js
+const dayjs = require('dayjs');
+
 // 获取应用实例
 const app = getApp()
 
@@ -13,9 +15,9 @@ Page({
   },
   // 事件处理函数
   bindViewTap() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+    this.setData({
+      motto: dayjs().format('{YYYY} MM-DDTHH:mm:ss SSS [Z] A')
+    });
   },
   onLoad() {
     if (wx.getUserProfile) {

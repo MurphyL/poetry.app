@@ -1,0 +1,23 @@
+{
+  "name": "poetry.app",
+  "version": "1.0.0",
+  "description": "诗歌微信小程序",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MurphyL/poetry.app.git"
+  },
+  "keywords": [
+    "诗歌"
+  ],
+  "author": "murph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MurphyL/poetry.app/issues"
+  },
+  "homepage": "https://github.com/MurphyL/poetry.app#readme",
+  "dependencies": {
+    "dayjs": "^1.10.7"
+  }
+}
