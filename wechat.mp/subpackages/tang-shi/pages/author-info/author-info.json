@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "author-info-page": "../../../../components/author-info-page/author-info-page"
+  }
+}

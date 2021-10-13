@@ -1,0 +1,5 @@
+<!--components/author-info-page/author-info-page.wxml-->
+<page-meta>
+    <navigation-bar title="{{info.name}} - {{title}} - {{version}}" />
+</page-meta>
+<view class="author">{{info.name}}：{{info.desc}}</view>

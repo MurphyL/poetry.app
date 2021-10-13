@@ -1,0 +1,4 @@
+<!--subpackages/tang-shi/pages/author-info/author-info.wxml-->
+<view class="container">
+    <author-info-page title="作者（唐）" info="{{info}}" />
+</view>

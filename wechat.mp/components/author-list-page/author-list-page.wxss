@@ -1,0 +1,5 @@
+/* components/author-list-page/author-list-page.wxss */
+.author {
+    line-height: 35px;
+    text-indent: 5px;
+}

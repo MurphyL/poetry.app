@@ -1,0 +1,8 @@
+<!--components/author-list-page/author-list-page.wxml-->
+<page-meta>
+    <navigation-bar title="{{title}} - {{version}}" />
+</page-meta>
+<slot />
+<view class="author" wx:for="{{rows}}">
+    <navigator url="{{url}}?unique={{item.id}}">{{item.name}}</navigator>
+</view>

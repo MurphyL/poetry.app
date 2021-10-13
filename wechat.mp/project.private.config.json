@@ -1,0 +1,24 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "唐诗 - 作者列表",
+                    "pathName": "subpackages/tang-shi/pages/author-list/author-list",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

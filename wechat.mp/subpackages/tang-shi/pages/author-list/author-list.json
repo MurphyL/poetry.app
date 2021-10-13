@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "author-list-page": "../../../../components/author-list-page/author-list-page"
+  }
+}

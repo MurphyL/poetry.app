@@ -1,0 +1,4 @@
+<!--subpackages/tang-shi/pages/author-list/author-list.wxml-->
+<view class="container">
+    <author-list-page title="所有作者（唐）" rows="{{authors}}" url="/subpackages/tang-shi/pages/author-info/author-info" />
+</view>

@@ -1,9 +1,11 @@
 {
   "name": "poetry.app",
   "version": "1.0.0",
-  "description": "诗歌微信小程序",
+  "description": "诗歌应用",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build-wmp": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MurphyL/poetry.app.git"
@@ -17,8 +19,9 @@
     "url": "https://github.com/MurphyL/poetry.app/issues"
   },
   "homepage": "https://github.com/MurphyL/poetry.app#readme",
-  "dependencies": {
-    "dayjs": "^1.10.7"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-json-transform": "^0.4.7",
+    "gulp-rename": "^2.0.0"
+  }
 }

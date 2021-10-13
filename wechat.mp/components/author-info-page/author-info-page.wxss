@@ -1,0 +1,4 @@
+/* components/author-info-page/author-info-page.wxss */
+.author {
+    line-height: 30px;
+}

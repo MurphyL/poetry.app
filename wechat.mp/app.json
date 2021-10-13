@@ -1,13 +1,22 @@
 {
-  "pages":[
-    "pages/index/index"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "诗典",
-    "navigationBarTextStyle":"black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "pages": [
+        "pages/index/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "诗典",
+        "navigationBarTextStyle": "black"
+    },
+    "subpackages": [
+        {
+            "root": "subpackages/tang-shi",
+            "pages": [
+                "pages/author-list/author-list",
+                "pages/author-info/author-info"
+            ]
+        }
+    ]
 }

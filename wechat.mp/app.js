@@ -9,6 +9,6 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    version: '1.0'
   }
 })
