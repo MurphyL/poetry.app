@@ -1,6 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="usermotto">
-    <text class="user-motto" bindtap="bindViewTap">{{motto}}</text>
-  </view>
+  <navigator url="/subpackages/tang-shi/pages/author-list/author-list">唐诗 - 作者</navigator>
 </view>

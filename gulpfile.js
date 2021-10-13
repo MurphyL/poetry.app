@@ -6,6 +6,9 @@ const defaultTask = async () => {
     const items = [{
         source: './chinese-poetry/json/authors.tang.json',
         target: './wechat.mp/subpackages/tang-shi/build/'
+    }, {
+        source: './chinese-poetry/json/authors.song.json',
+        target: './wechat.mp/subpackages/tang-shi/build/'
     }];
     items.forEach(({ source, target }) => {
         src(source)

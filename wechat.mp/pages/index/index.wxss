@@ -1,1 +1,5 @@
 /**index.wxss**/
+.container navigator {
+    line-height: 30px;
+    text-indent: 10px;
+}
