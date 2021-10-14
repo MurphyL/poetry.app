@@ -1,3 +1,6 @@
 [submodule "chinese-poetry"]
 	path = chinese-poetry
 	url = git@github.com:chinese-poetry/chinese-poetry.git
+[submodule "huajianji"]
+	path = huajianji
+	url = git@github.com:chinese-poetry/huajianji.git
